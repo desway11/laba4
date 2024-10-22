@@ -1,0 +1,21 @@
+'dir'; 1..$n | foreach {Measure-Command {dir $env:SystemRoot}} | Measure-Object TotalMilliseconds -Max -Min -Average
+'ps';  1..$n | foreach {Measure-Command {ps}} | Measure-Object TotalMilliseconds -Max -Min -Average
+
+Командлет Measure-Command запускает блок скрипта или командлет внутренне, измеряет время выполнения операции и возвращает время выполнения.
+
+Measure-Object Рассчитывает числовые свойства объектов, а также количество знаков, слов и строк в строковых объектах, например в текстовых файлах.
+
+Count    : 10
+Average  : 7,38049
+Sum      :
+Maximum  : 13,4347
+Minimum  : 3,0759
+Property : TotalMilliseconds
+
+ps
+Count    : 10
+Average  : 5,46297
+Sum      :
+Maximum  : 12,373
+Minimum  : 2,0627
+Property : TotalMilliseconds

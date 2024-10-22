@@ -1,0 +1,189 @@
+Get-Process | Where-Object BasePriority -gt 7 | Select-Object Name,BasePriority,Company | Sort-Object name | Export-Csv 'Z:\ОССТ_2024-2025\1-Мд-25\Крочак Иван1\laba4\processes sorted etc.txt'  
+
+(Export-Csv -Path Преобразует объекты в ряд строк, разделенных символами (CSV), и сохраняет строки в файл.)
+
+"Name","BasePriority","Company"
+
+"acrotray","8","Adobe Systems Inc."
+"AdobeIPCBroker","8","Adobe Inc"
+"AdskAccessCore","8","Autodesk, Inc."
+"AdskAccessServiceHost","8",
+"AdskAccessUIHost","8","Autodesk, Inc."
+"AdskAccessUIHost","10","Autodesk, Inc."
+"AdskAccessUIHost","8","Autodesk, Inc."
+"AdskIdentityManager","8","Autodesk, Inc."
+"AdskLicensingService","8",
+"AdSSO","8","Autodesk, Inc."
+"AggregatorHost","8",
+"ApplicationFrameHost","8","Microsoft Corporation"
+"audiodg","8",
+"avp","8",
+"avpsus","8",
+"avpui","8",
+"CCXProcess","8","Adobe Inc."
+"chrome","8","Google LLC"
+"chrome","8","Google LLC"
+"chrome","10","Google LLC"
+"chrome","8","Google LLC"
+"chrome","8","Google LLC"
+"chrome","8","Google LLC"
+"chrome","8","Google LLC"
+"cmd","8","Microsoft Corporation"
+"CompPkgSrv","8","Microsoft Corporation"
+"conhost","8","Microsoft Corporation"
+"conhost","8","Microsoft Corporation"
+"conhost","8","Microsoft Corporation"
+"csrss","13",
+"csrss","13",
+"ctfmon","13",
+"dasHost","8",
+"dllhost","8","Microsoft Corporation"
+"dwm","13",
+"explorer","8","Microsoft Corporation"
+"FamItrfc","13",
+"FamItrfc","13",
+"FNPLicensingService","8",
+"fontdrvhost","8",
+"fontdrvhost","8",
+"GenuineService","8","Autodesk"
+"IGCC","8","Intel Corporation"
+"IGCCTray","8","Intel Corporation"
+"igfxCUIService","8",
+"igfxEM","8","Intel Corporation"
+"IntelCpHDCPSvc","8",
+"IntelCpHeciSvc","8",
+"IpOverUsbSvc","8",
+"lsass","9",
+"MChat","8",
+"Memory Compression","8",
+"MeSuAx","8",
+"mesuwts","8",
+"MeUiHlp","8","Netop Business Solutions A/S"
+"msedge","10","Microsoft Corporation"
+"msedge","8","Microsoft Corporation"
+"msedge","8","Microsoft Corporation"
+"msedge","8","Microsoft Corporation"
+"msedge","8","Microsoft Corporation"
+"node","8","Node.js"
+"OneApp.IGCC.WinService","8",
+"ONENOTEM","8","Microsoft Corporation"
+"powershell","8","Microsoft Corporation"
+"PresentationFontCache","8",
+"Registry","8",
+"rserver3","8",
+"RtkNGUI64","8","Realtek Semiconductor"
+"RuntimeBroker","8","Microsoft Corporation"
+"RuntimeBroker","8","Microsoft Corporation"
+"RuntimeBroker","8","Microsoft Corporation"
+"RuntimeBroker","8","Microsoft Corporation"
+"SearchApp","8","Microsoft Corporation"
+"SearchIndexer","8",
+"SecurityHealthService","8",
+"SecurityHealthSystray","8","Microsoft Corporation"
+"services","9",
+"SgrmBroker","8",
+"ShellExperienceHost","8","Microsoft Corporation"
+"sihost","8","Microsoft Corporation"
+"smartscreen","8","Microsoft Corporation"
+"smss","11",
+"spoolsv","8",
+"sqlwriter","8",
+"StartMenuExperienceHost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8","Microsoft Corporation"
+"svchost","8",
+"svchost","8","Microsoft Corporation"
+"svchost","8",
+"svchost","8",
+"svchost","8","Microsoft Corporation"
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8","Microsoft Corporation"
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"svchost","8",
+"System","8",
+"taskhostw","8","Microsoft Corporation"
+"taskhostw","8","Microsoft Corporation"
+"TextInputHost","8","Microsoft Corporation"
+"UserOOBEBroker","8","Microsoft Corporation"
+"veyon-server","8",
+"veyon-service","8",
+"veyon-worker","8","Veyon Solutions"
+"vmnat","8",
+"vmnetdhcp","8",
+"vmware-authd","8",
+"vmware-usbarbitrator64","8",
+"WebFilterNativeHost","8","Netop Business Solutions A/S"
+"wininit","13",
+"winlogon","13",
+"WINWORD","8","Microsoft Corporation"
+"WINWORD","8","Microsoft Corporation"
+"WmiPrvSE","8",

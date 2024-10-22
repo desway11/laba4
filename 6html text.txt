@@ -1,0 +1,1 @@
+PS Z:\> Get-Process | Select-Object Name,Size,@{N='StartDate';E={$_.StartTime.ToShortDateString()}} | Sort-Object size | ConvertTo-Html > 'Z:\ОССТ_2024-2025\1-Мд-25\Крочак Иван1\laba4\6htmlll.html' (не сделал ещё)

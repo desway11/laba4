@@ -1,0 +1,8 @@
+Get-ChildItem -Path $env:SystemRoot -Include *.bmp,*.jpg -Recurse -File | Measure-Object Length -Sum
+
+
+$sum = $null
+Get-ChildItem -Path $env:SystemRoot -Include *.bmp,*.jpg -Recurse -File -EA SilentlyContinue | %{$sum += $_.Length}
+$sum
+
+51709098
